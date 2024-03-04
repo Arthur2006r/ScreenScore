@@ -12,6 +12,7 @@ Este repositório contém uma aplicação web de avaliação de filmes, desenvol
 ## Tecnologias Utilizadas:
 
 - **PHP:** Linguagem de programação principal para o desenvolvimento da lógica de negócios da aplicação.
+- **Javascript:** Linguagem de programação secundária para o desenvolvimento da lógica de negócios da aplicação.
 - **HTML:** Utilizado para a estruturação da página web.
 - **CSS:** Utilizado para a estilização da página web.
 - **MySQL:** Banco de dados utilizado para armazenamento dos dados.
