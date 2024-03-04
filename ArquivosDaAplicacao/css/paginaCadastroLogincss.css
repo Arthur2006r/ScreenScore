@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1A1C22;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='204' height='204' viewBox='0 0 200 200'%3E%3Cg %3E%3Cpolygon fill='%232c293e' points='100 57.1 64 93.1 71.5 100.6 100 72.1'/%3E%3Cpolygon fill='%23343247' points='100 57.1 100 72.1 128.6 100.6 136.1 93.1'/%3E%3Cpolygon fill='%232c293e' points='100 163.2 100 178.2 170.7 107.5 170.8 92.4'/%3E%3Cpolygon fill='%23343247' points='100 163.2 29.2 92.5 29.2 107.5 100 178.2'/%3E%3Cpath fill='%233D3A50' d='M100 21.8L29.2 92.5l70.7 70.7l70.7-70.7L100 21.8z M100 127.9L64.6 92.5L100 57.1l35.4 35.4L100 127.9z'/%3E%3Cpolygon fill='%23a6a6a6' points='0 157.1 0 172.1 28.6 200.6 36.1 193.1'/%3E%3Cpolygon fill='%23cecece' points='70.7 200 70.8 192.4 63.2 200'/%3E%3Cpolygon fill='%23F7F7F7' points='27.8 200 63.2 200 70.7 192.5 0 121.8 0 157.2 35.3 192.5'/%3E%3Cpolygon fill='%23cecece' points='200 157.1 164 193.1 171.5 200.6 200 172.1'/%3E%3Cpolygon fill='%23a6a6a6' points='136.7 200 129.2 192.5 129.2 200'/%3E%3Cpolygon fill='%23F7F7F7' points='172.1 200 164.6 192.5 200 157.1 200 157.2 200 121.8 200 121.8 129.2 192.5 136.7 200'/%3E%3Cpolygon fill='%23a6a6a6' points='129.2 0 129.2 7.5 200 78.2 200 63.2 136.7 0'/%3E%3Cpolygon fill='%23F7F7F7' points='200 27.8 200 27.9 172.1 0 136.7 0 200 63.2 200 63.2'/%3E%3Cpolygon fill='%23cecece' points='63.2 0 0 63.2 0 78.2 70.7 7.5 70.7 0'/%3E%3Cpolygon fill='%23F7F7F7' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.menu {
+    height: 10vh;
+    background-color: #510fcb;
+}
+
+.texto {
+    margin-top: 2vh;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.texto:hover {
+    margin-top: 2vh;
+    color: #c1c1c1d6;
+}
+
+.error {
+    color: rgb(255, 51, 0);
+    font-weight: 100;
+}
+
+.textoLog {
+    margin-top: 2vh;
+    margin-right: 4vw;
+    color: #e07319;
+}
+
+.textoLog:hover {
+    margin-top: 2vh;
+    color: #ab540d;
+}
+
+.textoCadastrar {
+    margin-top: 2vh;
+    color: #45bbf1;
+}
+
+.textoCadastrar:hover {
+    margin-top: 2vh;
+    color: #1d8eff;
+}
+
+.larguraMenu {
+    width: 78%;
+    margin-left: 11%;
+}
+
+.container {
+    width: 76%;
+    margin-left: 12%;
+}
+
+#layoutInicial {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "caixaDeOpcoes textinhoInformacional";
+    justify-content: space-between;
+    grid-gap: 10vw;
+    align-items: center;
+}
+
+#caixaDeOpcoes {
+    grid-area: caixaDeOpcoes;
+    background-color: #07080c;
+    height: 68vh;
+    width: 60vw;
+    margin-top: 13vh;
+    border-radius: 10%;
+}
+
+
+#textinhoInformacional {
+    background-color: #1a1c22b0;
+    border: #f7f7f7 solid 1px;
+    padding: 15px;
+    border-radius: 30px;
+    grid-area: textinhoInformacional;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.textoLogin {
+    color: white;
+    margin-left: 3vw;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#divOpcao1 {
+   margin-top: 8vh;
+}
+
+.inputsLogin {
+    width: 76%;
+    margin-left: 12%;
+}
+
+.botaoCadastrar {
+    text-decoration: none;
+    background-color: #510fcb;
+    padding: 17px;
+    padding-left: 9.2vw;
+    padding-right: 9.2vw;
+    border-radius: 10px;
+    color: #eeeeee;
+    transition: background 0.4s;
+    margin-top: 2vh;
+}
+
+.botaoCadastrar:hover {
+    text-decoration: none;
+    background-color: #9769ed;
+    color: #eeeeeed5;
+}
+
+.botaoLogar {
+    text-decoration: none;
+    background-color: #e07319;
+    padding: 17px;
+    padding-left: 10vw;
+    padding-right: 9.8vw;
+    border-radius: 9.8px;
+    color: #eeeeee;
+    transition: background 0.4s;
+    margin-top: 2vh;
+}
+
+.botaoLogar:hover {
+    text-decoration: none;
+    background-color: #ab540d;
+    color: #eeeeeed5;
+}
+
+.botaoAdministrador {
+    text-decoration: none;
+    background-color: #0bcf53;
+    padding: 17px;
+    padding-left: 9.7vw;
+    padding-right: 9.7vw;
+    border-radius: 10px;
+    color: #eeeeee;
+    transition: background 0.4s;
+    margin-top: 4vh;
+}
+
+.botaoAdministrador:hover {
+    text-decoration: none;
+    background-color: #109842;
+    color: #eeeeeed5;
+}
+
+
+#divOpcao2 {
+    margin-top: 5vh;    
+    text-align: center;
+}
+
+.inputsLogin{
+    width: 76%;
+    margin-left: 12%;
+}
+
+.inputLogin {
+    height: 7vh;
+    border-radius: 10px;
+    background-color: #f5f4f4f3;
+}
+
+.inputLogin:focus {
+    background-color: #e1e1e1f3;
+    border: solid #e07319a5;
+    -webkit-box-shadow: 0px 0px 1px 1px #e07319a5;
+    -moz-box-shadow: 0px 0px 1px 1px #e07319a5;
+    box-shadow: -0px 0px 1px 1px #e07319a5;
+}
+
+.inputCadastro {
+    height: 7vh;
+    border-radius: 10px;
+    background-color: #f5f4f4f3;
+}
+
+.inputCadastro:focus {
+    background-color: #e1e1e1f3;
+    border: solid #65ceff9e;
+    -webkit-box-shadow: 0px 0px 1px 1px #65ceff9e;
+    -moz-box-shadow: 0px 0px 1px 1px #65ceff9e;
+    box-shadow: -0px 0px 1px 1px #65ceff9e;
+}
+
+.inputAdministrador {
+    height: 7vh;
+    border-radius: 10px;
+    background-color: #f5f4f4f3;
+}
+
+.inputAdministrador:focus {
+    background-color: #e1e1e1f3;
+    border: solid #0bcf53a0;
+    -webkit-box-shadow: 0px 0px 1px 1px #0bcf53a0;
+    -moz-box-shadow: 0px 0px 1px 1px #0bcf53a0;
+    box-shadow: -0px 0px 1px 1px #0bcf53a0;
+}
+
+.fraseDasOpcoes {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.831);
+}
+
+.linkLogin {
+    color: #5b15db;
+}
+
+.linkLogin:hover {
+    color: #855ad4;
+    text-decoration: none;
+}
+
+
+.linkCadastro {
+    color: #e07319;
+}
+
+.linkCadastro:hover {
+    color: #ab540d;
+    text-decoration: none;
+}
+
+.textoPequeno {
+    margin-top: 1vh;
+    font-size: 18px;
+    font-weight: 300;
+    color: #510fcb;
+}

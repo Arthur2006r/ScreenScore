@@ -1,0 +1,3 @@
+function cliqueVisto(codAvaliador, codFilme) {
+    
+}

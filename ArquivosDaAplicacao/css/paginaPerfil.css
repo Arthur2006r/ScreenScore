@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #161b1fe7;
+}
+
+.container {
+    width: 70%;
+    margin-left: 15%;
+}
+
+#textoPerfil {
+    grid-area: textoPerfil;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 5vh;
+}
+
+#dadosPerfil {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "avatarStatus"
+                         "biografiaBotaoEditar";
+}
+
+#avatarStatus {
+    grid-area: avatarStatus;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "avatarUsername statusConta";
+    justify-content: space-between;
+}
+
+#avatarUsername {
+    grid-area: avatarUsername;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "avatar username";
+    grid-gap: 2vw;
+    align-items: center;
+}
+
+#avatar {
+    grid-area: avatar;
+}
+
+.avatarFoto {
+    height: 20vh;
+    width: 10vw;
+    border-radius: 100%;
+    border: rgba(255, 255, 255, 0.34) solid 1px;
+}
+
+#username {
+    grid-area: username;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -4vh;
+    background-color: transparent;
+    border: none;
+}
+
+#statusConta {
+    grid-area: statusConta;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "filmesVistos filmesCurtidos curtidas";
+    grid-gap: 2vw;
+}
+
+.status {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "numero"
+                         "texto";
+}
+
+.numero {
+    grid-area: numero;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+.textoStatus {
+    grid-area: texto;
+    margin-top: -9vh;
+    font-weight: 200;
+    font-size: 15px;
+    color: white;
+}
+
+.linkStatus {
+    text-decoration: none;
+}
+
+.linkStatus:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+.barra {
+    color: rgba(255, 255, 255, 0.34);
+    font-weight: 100;
+    font-size: 25px;
+}
+
+#biografiaBotaoEditar {
+    grid-area: biografiaBotaoEditar;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "biografia EditarPerfil";
+    justify-content: space-between;
+    align-items: center;
+}
+
+#biografia {
+    grid-area: biografia;
+    color: white;
+    font-size: 17px;
+}
+
+.formBiografia {
+    width: 50vw;
+    background-color: rgba(255, 255, 255, 0.34);
+    border: none;
+}
+
+.formBiografia:hover,
+.formBiografia:focus {
+    background-color: rgba(255, 255, 255, 0.34);
+    border: none;
+}
+
+#EditarPerfil {
+    grid-area: EditarPerfil;
+    margin-top: 4vh;  
+}
+
+.botaoEditarPerfil {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    border-radius: 7px;
+    background-color: #556677;
+    border: none;
+}
+
+.botaoEditarPerfil:hover,
+.botaoEditarPerfil:focus {
+    text-decoration: none;
+    color: white;
+    background-color: #738698;
+    border: none;
+}
+
+.textoListaDeFilmes {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "textoDaCategoria linkVerMais";
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textoDaCategoria {
+    grid-area: textoDaCategoria;
+    color: rgba(255, 255, 255, 0.639);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 2vh;
+}
+
+.linkVerMais {
+    grid-area: linkVerMais;
+    color: rgba(255, 255, 255, 0.639);
+    font-size: 12px;
+}
+
+.linkVerMais:hover {
+    color: rgba(92, 156, 224, 0.642);
+    text-decoration: none;
+}
+
+.imagemCapaFilme {
+    height: 35vh;
+    width: 12vw;
+    border-radius: 10px;
+}
+
+.imagemCapaFilme:hover {
+   border: white solid 1px;
+}
+
+.linha {
+    margin-top: -1.5vh;
+    background-color: rgba(255, 255, 255, 0.34);
+}
+
+.footer {
+    height: 32vh;
+    background-color: #2c3440;
+}

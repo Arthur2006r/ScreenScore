@@ -1,0 +1,101 @@
+.menu {
+    height: 10vh;
+    background-color: #510fcb;
+}
+
+.larguraMenu {
+    width: 76%;
+    margin-left: 12%;
+}
+
+.linkMaisCurtidosDoMomento {
+    margin-top: 2.5vh;
+    color: rgb(255, 85, 0);
+}
+
+.linkMaisCurtidosDoMomento:hover {
+    margin-top: 2.5vh;
+    color: rgb(236, 122, 122);
+}
+
+.navbar-brand {
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.linkMelhorAvaliados {
+    margin-top: 2.5vh;
+    color: #00e054;
+}
+
+.linkMelhorAvaliados:hover {
+    color: #74f0a3;
+}
+
+.linkDeslogar {
+    margin-top: 2.5vh;
+    color: rgb(255, 123, 0);
+    font-weight: 500;
+}
+
+.linkDeslogar:hover {
+    color: rgb(183, 121, 62);
+}
+
+.nav-item {
+    margin: 8px;
+}
+
+.textoSimbolo {
+    display: flex;
+    grid-column: 1fr 1fr;
+    grid-template-areas: "simbolo texto";
+    grid-gap: 3px;
+}
+
+.simbolo {
+    grid-area: simbolo;
+}
+
+.texto {
+    grid-area: texto;
+    color: white !important;
+    font-weight: 500;
+}
+
+.texto:hover {
+    color: rgb(146, 146, 146) !important;
+}
+
+.linkMinhaConta {
+    margin-top: 2.5vh;
+    color: blue;
+}
+
+.linkMaisCurtidosDoMomento {
+    margin-top: 2.5vh;
+    color: rgb(255, 0, 0);
+}
+
+.linkCadastrarFilme {
+    margin-top: 2.5vh;
+    color: rgb(21, 255, 0);
+}
+
+.barraNavegacao {
+    border-radius: 100px;
+    height: 4vh;
+    background-color: #ebebeb;
+}
+
+.botaoPesquisar {
+    background-color: none;
+    color: white;
+    border: none;
+}
+
+.botaoPesquisar:hover {
+    background-color: transparent;
+    color: #d7d7d7;
+    border: none;
+}
