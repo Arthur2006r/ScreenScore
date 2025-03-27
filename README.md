@@ -16,3 +16,17 @@ Este repositório contém uma aplicação web de avaliação de filmes, desenvol
 - **HTML:** Utilizado para a estruturação da página web.
 - **CSS:** Utilizado para a estilização da página web.
 - **MySQL:** Banco de dados utilizado para armazenamento dos dados.
+
+## Vídeo do Sistema do Administrador
+Para visualizar o vídeo demonstrativo do sistema de administração do ScreenScore, clique no link abaixo:
+
+
+https://github.com/user-attachments/assets/9bf5e5db-75e4-4b30-9b4c-5bc85deed09b
+
+
+## Vídeo do Sistema do Avaliador
+Para visualizar o vídeo demonstrativo do sistema de avaliador do ScreenScore, clique no link abaixo:
+
+
+https://github.com/user-attachments/assets/51cd641a-b3bb-4265-9323-2139c0706dae
+
