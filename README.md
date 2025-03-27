@@ -24,6 +24,7 @@ Para visualizar o vídeo demonstrativo do sistema de administração do ScreenSc
 https://github.com/user-attachments/assets/9bf5e5db-75e4-4b30-9b4c-5bc85deed09b
 
 
+
 ## Vídeo do Sistema do Avaliador
 Para visualizar o vídeo demonstrativo do sistema de avaliador do ScreenScore, clique no link abaixo:
 
